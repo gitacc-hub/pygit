@@ -1,0 +1,31 @@
+git --version	-Shows which version of Git is installed. 
+
+
+git init  -Initializes a new local Git repository in the current folder. 
+
+git clone <url>	-Copies an existing remote repository (e.g., from GitHub) to your local machine. 
+
+git status	Shows the state of your working directory and staging area (which files are modified/untracked/staged). 
+
+git add <file> / git add .	Moves changes from working directory into staging (preparing them for commit). 
+
+git commit -m "message"	Records a snapshot of your staged changes with a message. 
+
+git log / git log --oneline	Views the commit history of your repository. 
+
+git branch <branch-name>	Creates a new branch (a parallel line of development) in your repo. 
+
+git checkout <branch-name> (or git switch <branch-name>)	Switches your working directory to a different branch. 
+
+git merge <branch-name>	Merges the specified branch into your current branch (bringing changes together). 
+
+git push origin <branch>	Uploads your committed changes from your local branch to the corresponding remote branch. 
+
+git pull origin <branch>	Downloads & merges changes from the remote branch into your local branch (combines fetch + merge). 
+
+git remote add origin <url>	Sets up a remote repository link (so you can push/pull). 
+ua.github.io
+
+git reset	Used to undo changes: move HEAD, unstage files, or remove commits (depending on options). 
+
+git help <command>	Displays the manual/help page for a Git command. 
